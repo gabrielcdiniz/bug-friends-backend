@@ -1,0 +1,23 @@
+{
+  "name": "bug-friends-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch ./src/server.ts",
+    "start": "tsx ./src/server.ts",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^7.0.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3",
+    "vitest": "^0.32.2"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  }
+}
