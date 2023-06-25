@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "baseUrl": "./src/",
-    "paths": {}
+    "paths": {
+      "@controllers/*": ["controllers/*"],
+      "@routes/*": ["routes/*"],
+      "@shared/*": ["shared/*"]
+    }
   }
 }
